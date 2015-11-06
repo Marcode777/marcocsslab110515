@@ -4,23 +4,23 @@ background-color: darkgray
 
 }
 
-h1 {
-	font-family: 'Oswald', sans-serif;
-}
 
-h2 {
-	font-family: 'Oswald', sans-serif;
-}
-
-.text {
-	text-decoration: font-family: 'Oswald', sans-serif;
-	color: red;
-}
-
-li:first-child {
-	color: white;
-}
-
-.awesome{
+.h1{
 border:7px solid;
 }
+
+article {
+	position: absolute;
+	top; 10px;
+}
+
+aside {
+	position: relative;
+	bottom; 1000px;
+}
+
+nav {
+	position: static;
+	bottom; 500px;
+}
+
